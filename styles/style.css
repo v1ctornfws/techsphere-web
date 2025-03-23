@@ -1,0 +1,15 @@
+:root {
+    --bs-primary: #3f6eaf;
+    --bs-secondary: #5c2d91;
+    --bs-success: #00A878;
+    --bs-warning: #F4A261;
+    --bs-info: #48CAE4;
+    --bs-light: #f8f9fa;
+    --bs-dark: #1a1a2e;
+  }
+  
+  body {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+  }
+  
