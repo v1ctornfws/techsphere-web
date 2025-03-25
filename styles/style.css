@@ -1,15 +1,46 @@
-:root {
-    --bs-primary: #3f6eaf;
-    --bs-secondary: #5c2d91;
-    --bs-success: #00A878;
-    --bs-warning: #F4A261;
-    --bs-info: #48CAE4;
-    --bs-light: #f8f9fa;
-    --bs-dark: #1a1a2e;
-  }
-  
   body {
-    background-color: var(--bs-dark);
+    background-color: #1a1a2e;
     color: var(--bs-light);
   }
-  
+
+  h2,
+  h3 {
+    font-family: kanit, sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  em {
+    font-style: italic;
+    font-weight: 500; 
+  }
+  #valores{
+    font-weight: ;
+    text-align: center;
+    padding-left: 200px;
+  }
+
+  #objetivo,
+  #que-es,
+  #vision,
+  #mision,
+  #valores,
+  #integrantes,
+  #colaboradores {
+    transition: transform 0.25s ease-out;
+  }
+
+  #objetivo:hover,
+  #que-es:hover,
+  #mision:hover,
+  #vision:hover,
+  #valores:hover,
+  #integrantes:hover,
+  #colaboradores:hover {
+    transform: scale(1.05);
+    transform: translate3d(8px, -10px, 0px);
+  }
