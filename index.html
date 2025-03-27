@@ -9,22 +9,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" href="/images/logo-no-fondo.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css" rel="stylesheet">
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Barra de Navegación -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo-no-fondo.png" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
+        TechSphere
       </a>
-      <a class="navbar-brand" href="index.html">TechSphere</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,126 +40,193 @@
 
   <div class="container mt-5">
     <!-- Objetivo -->
-    <section id="objetivo" class="p-4 bg-dark  border rounded-4">
-      <h2 class="text-primary">Objetivo</h2>
-      <p>En TechSphere, impulsamos la innovación y avances tecnológicos, desarrollando proyectos que resuelven
-        retos tecnológicos y aportan al avance académico y social.</p>
+    <section id="objetivo" class="p-5 bg-dark text-light text-center">
+      <h2>Objetivo</h2>
+      <p>Impulsamos la innovación y avances tecnológicos con proyectos que aportan al avance académico y social.
+      </p>
     </section>
-
     <!-- ¿Qué es TechSphere? -->
-    <section id="que-es" class="p-4 mt-4 bg-dark border rounded-4">
-      <h2 class="text-primary">¿Qué es TechSphere?</h2>
-      <p>TechSphere es un grupo estudiantil de la Universidad Regiomontana (U-ERRE) que fomenta la innovación y
-        colaboración entre estudiantes. Nuestro objetivo es desarrollar proyectos tecnológicos que impulsen la ciencia,
-        la tecnología y las competencias de nuestros miembros, promoviendo el trabajo en equipo, la creatividad y
-        soluciones innovadoras para los retos actuales y futuros.</p>
+    <section id="que-es" class="p-4 mt-4 bg-dark text-light text-center">
+      <h2>¿Qué es TechSphere?</h2>
+      <p>Grupo estudiantil de la Universidad Regiomontana que fomenta la innovación y el trabajo en equipo.</p>
     </section>
-    <br>
-    <div id="mvs" class="row algin-items-center">
+    <!-- Mision -->
+    <div class="row text-light text-center">
       <div class="col-md-6">
-        <!-- Misión -->
-        <section id="mision" class="p-4 bt-4 bg-dark border border-primary rounded-4">
-          <h3 class="text-primary">Misión</h3>
-          <em>Impulsar la innovación y el desarrollo tecnológico, integrando ingeniería, tecnología y
-            sostenibilidad. Formamos líderes capaces de transformar ideas en soluciones reales.</em>
+        <section id="mision" class="p-4 mt-4 bg-dark">
+          <h3>Misión</h3>
+          <p>Integrar ingeniería, tecnología y sostenibilidad para transformar ideas en soluciones reales.</p>
         </section>
-        <!-- Vision -->
       </div>
       <div class="col-md-6">
-        <section id="vision" class="p-4 bt-4 bg-dark border border-primary rounded-4">
-          <h3 class="text-primary">Visión</h3>
-          <em>Ser el grupo estudiantil referente en innovación tecnológica, 
-            creando proyectos que impacten la industria y
-            la sociedad, conectando talento con los desafíos del futuro.</em>
+        <section id="vision" class="p-4 mt-4 bg-dark">
+          <h3>Visión</h3>
+          <p>Ser el grupo referente en innovación tecnológica con impacto en la industria y sociedad.</p>
         </section>
       </div>
     </div>
+
     <!-- Valores -->
-    <section id="valores" class="p-4 mt-4 bg-dark border border-warning rounded-4 align-items-center">
-      <h2 class="text-warning">Valores</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <em>Innovación</em><br>
-          <em>Colaboración</em><br>
-          <em>Interdisciplinariedad</em><br>
-          <em>Compromiso con el aprendizaje</em>
+    <section id="valores" class="mt-4 text-center">
+      <h2 class="mt-5 mb-5">Valores</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-lightbulb fa-2x"></i>
+              <h5>Innovación</h5>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <em>Impacto social</em><br>
-          <em>Liderazgo</em><br>
-          <em>Creatividad</em><br>
-          <em>Responsabilidad</em>
+        <div class="col-md-3">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x"></i>
+              <h5>Colaboración</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-users fa-2x"></i>
+              <h5>Interdisciplinariedad</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-book fa-2x"></i>
+              <h5>Compromiso al aprender</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-globe fa-2x"></i>
+              <h5>Impacto social</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-chart-line fa-2x"></i>
+              <h5>Liderazgo</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-paint-brush fa-2x"></i>
+              <h5>Creatividad</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="card text-center p-3">
+            <div class="card-body">
+              <i class="fas fa-check-circle fa-2x"></i>
+              <h5>Responsabilidad</h5>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Integrantes -->
-    <section id="integrantes" class="p-4 mt-4 bg-dark border rounded-4">
-      <h2 class="text-primary">Integrantes</h2>
-      <p>En TechSphere, nos enorgullece contar con un equipo multidisciplinario de estudiantes apasionados por la
-        tecnología.
-        Nuestros integrantes provienen de diversas carreras y semestres, lo que nos permite abordar los proyectos desde
-        diferentes perspectivas y enriquecer nuestro aprendizaje. Juntos, trabajamos en colaboración para alcanzar
-        nuestros
-        objetivos y hacer realidad nuestras ideas.</p>
-      <div id="integrantes">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <h5>Victor Amaya</h5><small>Presidente</small>
+    <section id="integrantes" class="mt-4 text-center">
+      <h2 class="mt-5">Integrantes</h2>
+      <div id="carouselIntegrantes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Victor Amaya</h4>
+                <p>Presidente</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h5>Jonas Castillo</h5><small>Vicepresidente</small>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Jonas Castillo</h4>
+                <p>Vicepresidente</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h5>Julio Ávila</h5><small>Secretario de investigación</small>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Julio Ávila</h4>
+                <p>Secretario de Investigación</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Elizabeth Hernandez</h4>
+                <p>Investigadora</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Diego Estrada</h4>
+                <p>Investigador</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center">
+                <img src="images/pfp-img.jpg" alt="Victor Amaya" width="200" class="rounded-circle">
+                <h4>Diana Alavid</h4>
+                <p>Tesorera y Marketing</p>
+              </div>
+            </div>
           </div>
         </div>
-        <br>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <h5>Elizabeth Hernández</h5><small>Investigadora</small>
-          </div>
-          <div class="col-md-4">
-            <h5>Diego Estrada</h5><small>Investigador</small>
-          </div>
-          <div class="col-md-4">
-            <h5>Diana Alavid</h5><small>Tesorera y Marketing</small>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIntegrantes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIntegrantes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
     <!-- Colaboradores -->
-    <section id="colaboradores" class="p-4 mt-4 mb-5 bg-dark border border-info-subtle rounded">
-      <h2 class="text-info">Colaboradores</h2>
-      <p>En TechSphere, valoramos la colaboración con otras organizaciones, empresas y clubes que comparten nuestra
-        pasión
-        por la
-        tecnología y la innovación. Gracias a nuestros colaboradores, podemos acceder a recursos, conocimientos y
-        oportunidades que nos permiten desarrollar proyectos más ambiciosos y de mayor impacto. Juntos, trabajamos en
-        alianzas estratégicas para potenciar nuestras capacidades y alcanzar nuestros objetivos comunes.</p>
-
-      <p>Colaboramos con las siguientes empresas, clubes, personas:</p>
+    <section id="colaboradores" class="p-4 mt-4 bg-dark text-light text-center">
+      <h2>Colaboradores</h2>
+      <p>Trabajamos con empresas y clubes para potenciar nuestras capacidades y desarrollar proyectos innovadores.
+      </p>
     </section>
   </div>
 
   <!-- Footer -->
-  <section id="footer" class="p-4 bg-dark text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h3>Contacto</h3>
-          <p>Para más información, contáctanos a través de Instagram o WhatsApp.</p>
-          <a href="http://www.instagram.com/techsphereur/" target="_blank" class="btn btn-link p-0">
-            <img src="/images/instagram-logo-blanco.svg" alt="Instagram" width="40" height="40">
-          </a>
-          <a href="https://wa.me/8124117203" target="_blank" class="btn btn-link p-0">
-            <img src="/images/whatsapp-logo-blanco.svg" alt="WhatsApp" width="40" height="40">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <footer class="p-4 mt-4 bg-dark text-light text-center">
+    <h3>Contacto</h3>
+    <p>Contáctanos en Instagram o WhatsApp.</p>
+    <a href="http://www.instagram.com/techsphereur/" target="_blank" class="btn btn-link p-0">
+      <img src="/images/instagram-logo-blanco.svg" alt="Instagram" width="40">
+    </a>
+    <a href="https://wa.me/8124117203" target="_blank" class="btn btn-link p-0">
+      <img src="/images/whatsapp-logo-blanco.svg" alt="WhatsApp" width="40">
+    </a>
+  </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
