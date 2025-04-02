@@ -1,26 +1,18 @@
-var queEs = document.getElementById('que-es-a');
-var mision = document.getElementById('mision-vision-a');
-var valores = document.getElementById('valores-a');
-var integrantes = document.getElementById('integrantes-a');
-var colaboradores = document.getElementById('colaboradores-a');
+//Recorre cada uno de las clases nav-link
+document.querySelectorAll('.nav-link').forEach(link=>{
+    //Agrega evento click a da uno
+    link.addEventListener('click', function(e){
+        //Evita mostrar el enlace
+        e.preventDefault();
+        
+        //Obtención del id
+        let targetId = this.getAttribute('href').substring(1);
+        let targetElement = document.getElementById(targetId);
 
-queEs.addEventListener('click', function(e){
-        e.preventDefault();
-    }
-);
-mision.addEventListener('click', function(e){
-        e.preventDefault();
-    }
-);
-valores.addEventListener('click', function(e){
-        e.preventDefault();
-    }
-);
-integrantes.addEventListener('click', function(e){
-        e.preventDefault();
-    }
-);
-colaboradores.addEventListener('click', function(e){
-        e.preventDefault();
-    }
-);
+        //Hacer scroll al id del elemento en cuestión
+        window.scrollTo({
+            top: targetElement.offsetTop-20,
+            behavior: 'smooth'
+        });
+    });
+});
